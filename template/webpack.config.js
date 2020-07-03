@@ -1,6 +1,8 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const { CleanWebpackPlugin } = require("clean-webpack-plugin")
+const CopyPlugin = require('copy-webpack-plugin')
 
 const srcDir        = path.join(__dirname,'./src')
 const distDir       = path.join(__dirname,'./build')
@@ -27,6 +29,7 @@ module.exports = {
     }
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: srcHtmlLayout,
       inject: false,
@@ -37,6 +40,9 @@ module.exports = {
       // both options are optional
       filename: '[name].css'
     }),
+    new CopyPlugin([
+      { from: './public/', to: 'assets/' },
+    ])
   ],
   module: {
     rules: [
