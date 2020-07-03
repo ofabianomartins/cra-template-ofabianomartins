@@ -1,14 +1,3 @@
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://investtools.com.br">
-    <img src="https://www.investtools.com.br/images/logo.png" alt="Logo">
-  </a>
-
-  <h3 align="center">Template Investtools</h3>
-</p>
-
 ## Sobre o Projeto
 
 Este projeto visa a criação de um template que possa ser utilizado no momento de criação de projetos utilizando React usando as dependências básicas da investtools, visto que o processo de instalação e configuração das libs no início de um projeto podem gerar certa complexidade e muitas vezes até erros que atrasam o processo, atrapalhando assim o fluxo de desenvolvimento.
@@ -31,16 +20,6 @@ Abaixo segue o que foi utilizado na criação deste template:
 - [Bootstrap](https://getbootstrap.com/) - Framework CSS provido pelo twitter
 <!-- GETTING STARTED -->
 
-### Instalação
-
-1. Para instalar e utilizar esse template o processo é bem simples, basta criar um projeto novo utilizando o comando:
-
-```sh
-create-react-app init InvesttoolsExample --template investtools
-```
-
-Com isso o projeto será criado com todas as dependências do template devidamente instaladas e linkadas, tal como os arquivos de configuração que são copiados para o projeto.
-
 ## Contribuição
 
 Contribuições são o que fazem a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
@@ -57,9 +36,3 @@ Contribuições são o que fazem a comunidade open source um lugar incrível par
 ## Licença
 
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
-
-<!-- CONTACT -->
-
-## Contato
-
-Rocketseat - [Github](https://github.com/rocketseat) - **oi@rocketseat.com.br**
