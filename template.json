@@ -7,6 +7,8 @@
       "extensible-duck": "^1.6.0",
       "axios": "^0.19.2",
       "prop-types": "^15.7.2",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
       "react-redux": "^7.1.3",
       "react-router": "^5.1.2",
       "react-router-dom": "^5.1.2",
@@ -45,6 +47,11 @@
       "webpack-cli": "^3.3.11",
       "webpack-dev-server": "^3.10.3",
       "webpack-merge": "^4.2.2"
+    },
+    "devDependencies": {
+      "eslint-friendly-formatter": "^4.0.1",
+      "eslint-loader": "^4.0.2",
+      "@hot-loader/react-dom": "^16.13.0"
     },
     "scripts": {
       "start": "webpack-dev-server --open --hot --inline",

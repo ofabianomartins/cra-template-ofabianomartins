@@ -32,7 +32,6 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: srcHtmlLayout,
-      inject: false,
       chunksSortMode: 'none'
     }),
     new MiniCssExtractPlugin({
