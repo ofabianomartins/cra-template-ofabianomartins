@@ -46,9 +46,7 @@
       "webpack": "^4.41.6",
       "webpack-cli": "^3.3.11",
       "webpack-dev-server": "^3.10.3",
-      "webpack-merge": "^4.2.2"
-    },
-    "devDependencies": {
+      "webpack-merge": "^4.2.2",
       "eslint-friendly-formatter": "^4.0.1",
       "eslint-loader": "^4.0.2",
       "@hot-loader/react-dom": "^16.13.0"
